@@ -1,0 +1,112 @@
+* {
+   margin: 0;
+}
+
+body {
+   font-family: arial;
+   height: 2000px;
+   position: relative;
+}
+
+.footer_container {
+   background-color: rgb(61, 61, 61);
+   position: relative;
+   height: 350px;
+   bottom: 0px;
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   justify-content: center;
+   column-gap: 20px;
+   width: 1100px;
+   margin-right: 30px;
+}
+
+.footer_content {
+   position: absolute;
+   height: 350px;
+   bottom: 0px;
+   right: 0px;
+   left: 0px;
+   display: grid;
+   justify-content: center;
+   column-gap: 20px;
+   background-color: rgb(61, 61, 61);
+
+}
+
+.footer_container div {
+   background-color: rgb(61, 61, 61);
+
+}
+
+#logo_container {
+   margin-top: 30px;
+   width: 50%;
+   height: 30%;
+   display: flex;
+   margin-left: 25%;
+}
+
+#link_cell {
+   width: 60%;
+   height: 12%;
+   margin-top: 10px;
+   margin-left: 20%;
+   display: flex;
+   justify-content: space-between;
+   padding: 6px;
+}
+
+#link {
+   border: 1px solid white;
+   height: 100%;
+   width: 60px;
+   border-radius: 50%;
+   align-content: center;
+}
+#link:hover{
+   background-color: lightgrey;
+}
+
+
+#center_cell {
+   width: 50%;
+   padding: 10px;
+   color: white;
+}
+
+#footer_link {
+   text-decoration: none;
+   color: lightgrey;
+   font-size: 12px;
+}
+
+#signText {
+   font-size: 12px;
+   color: lightgrey;
+}
+
+#footer_link:hover {
+   color: red;
+}
+
+#right_cell {
+   padding: 10px;
+   color: white;
+}
+
+#input {
+   width: 70%;
+   margin-top: 5px;
+   height: 35px;
+   display: inline-block;
+   background-color: rgb(61, 61, 61);
+   border: 1px solid grey;
+   border-radius: 3px;
+}
+
+
+
+#button:active {
+   opacity: 0.7;
+}

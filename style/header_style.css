@@ -1,0 +1,494 @@
+#headtext {
+   height: 19%;
+   background-color: rgb(10, 10, 9);
+   position: absolute;
+   bottom: 1px;
+   left: 0px;
+   right: 75%;
+   container-type: inline-size;
+   color: white;
+}
+
+#htext {
+   text-align: end;
+   font-size: 5cqi;
+   margin-bottom: 2%;
+   margin-top: 4%;
+   margin-right: 7%;
+}
+
+#headline-text {
+   margin-bottom: 10px;
+   margin-top: 5px;
+   margin-right: 3%;
+   font-size: 20px;
+   padding-top: 2.5px;
+}
+
+#headline {
+   height: 30px;
+   margin-left: 3%;
+   display: flex;
+   position: absolute;
+   bottom: 7px;
+   right: 0px;
+   left: 26%;
+   overflow: hidden;
+   overflow-x: hidden;
+   font-size: 15px;
+   color: white;
+
+}
+
+#animated {
+   height: 100%;
+   animation: headline;
+   animation-duration: 10s;
+   animation-timing-function: infinite;
+   animation-fill-mode: forward;
+   animation-timing-function: 0.6s;
+   animation-iteration-count: infinite;
+   container-type: inline-size;
+}
+
+@keyframes headline {
+   from {
+      width: 10%
+   }
+
+   to {
+      width: 90%;
+   }
+}
+
+* {
+   margin: 0;
+}
+
+@keyframes content_panel {
+   form {
+      height: 0px;
+   }
+
+   to {
+      height: 350px;
+   }
+}
+
+body {
+   font-family: arial;
+   height: 3000px;
+}
+
+.header_container {
+   background-color: rgb(61, 61, 61);
+   height: 14rem;
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   z-index: 100;
+   display: flex;
+}
+
+.main_header {
+   height: 9rem;
+   background-color: rgb(241, 238, 238);
+   position: absolute;
+   top: 2.2rem;
+   right: 0px;
+   left: 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+
+.left {
+   height: 9rem;
+   flex: 1;
+   max-width: 330px;
+   position: relative;
+   justify-items: end;
+   align-content: center;
+}
+
+#log_container {
+   width: 90px;
+   height: 90px;
+   margin-right: 11%;
+}
+
+#tolo_img {
+   height: 100%;
+   width: 100%;
+}
+
+.center {
+   height: 9rem;
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-content: center;
+   align-items: center;
+}
+
+#top_menu {
+   display: flex;
+}
+
+#search_div {
+   height: 32px;
+   width: 40%;
+   border-radius: 2px;
+   container-type: inline-size;
+}
+
+#search_box {
+   border-radius: 3px;
+   height: 100%;
+   width: 100%;
+   border: 1px solid lightgrey;
+   box-shadow: 0.8px 1px 1px 1px grey;
+   background-color: rgb(212, 212, 212);
+   padding-left: 10px;
+   font-size: 5cqi;
+}
+
+#three_menue {
+   flex: 1;
+   height: 38px;
+   display: flex;
+   justify-content: flex-end;
+   container-type: inline-size;
+}
+
+#menu_cell {
+   margin-right: 15px;
+
+}
+
+#bottom_menu ul {
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+#bottom_menu ul li {
+   list-style-type: none;
+   border-right-style: solid;
+   border-right-color: rgb(37, 37, 37);
+   align-items: start;
+   height: 15px;
+   padding-left: 5px;
+   padding-right: 5px;
+   position: relative;
+}
+
+#bottom_menu ul #list-opinion {
+   border-right-style: none;
+   border-right-color: white;
+}
+
+#three_menue #menu_cell {
+   color: rgb(63, 62, 62);
+}
+
+#three_menue #menu_cell a {
+   text-decoration: none;
+   color: inherit;
+   font-size: 3.5cqi;
+}
+
+#three_menue #menu_cell a:hover {
+   color: rgb(5, 5, 142);
+}
+
+.right {
+   height: 9rem;
+   max-width: 360px;
+   flex: 1;
+}
+
+#lang_container {
+   margin-top: 22px;
+}
+
+#lang_container a {
+   margin-left: 10px;
+   text-decoration: none;
+   color: inherit;
+   font-size: 13px;
+}
+
+#date_section {
+   width: 120px;
+   margin-top: 6px;
+   margin-left: 14px;
+   text-decoration: none;
+   color: inherit;
+   font-size: 12px;
+   text-align: end;
+}
+
+#bottom_menu #afghanistan_link:hover {
+   color: rgb(237, 5, 5);
+}
+
+#bottom_menu ul li div {
+   text-decoration: none;
+   padding-right: 5px;
+   padding-left: 5px;
+   font-size: 12px;
+   font-weight: bold;
+   color: rgb(20, 20, 20);
+   cursor: pointer;
+
+}
+
+#bottom_menu ul li a {
+   text-decoration: none;
+   padding-right: 5px;
+   padding-top: 0px;
+   padding-left: 5px;
+   font-size: 12px;
+   font-weight: bold;
+   color: rgb(20, 20, 20);
+
+}
+
+#bottom_menu ul li div:hover {
+   color: rgb(237, 5, 5);
+}
+
+#bottom_menu ul li a:hover {
+   color: rgb(237, 5, 5);
+}
+
+#afghanistan {
+   position:relative;
+   margin-top: 48px;
+   background-color: rgb(61, 61, 61);
+   width: 1990%;
+   margin-left: -660%;
+   pointer-events: none;
+   opacity: 0;
+   animation-duration: 0.7s;
+   animation-fill-mode:forwards;
+   overflow-y: hidden; 
+}
+
+#afghanistan_link:hover #afghanistan {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+
+}
+
+#newsleft {
+   position: absolute;
+   left: 230px;
+   width: 300px;
+   top: 30px;
+   bottom: 0px;
+   display: grid;
+   grid-template-columns: 1fr;
+   background-color: rgb(61, 61, 61);
+   padding-top: 15px;
+
+}
+
+#afghanistan #newsleft a {
+   color: white;
+}
+
+#afghanistan #newsleft a:hover {
+   color: red;
+}
+
+#afghanistan #newsleft #afg_name {
+   font-size: 40px;
+   color: red;
+}
+
+#newsright {
+   background-color: rgb(61, 61, 61);
+   position: absolute;
+   left: 600px;
+   width: 550px;
+   top: 30px;
+   bottom: 0px;
+   display: grid;
+   grid-template-columns: 275px 275px;
+   padding-top: 10px;
+}
+
+#business {
+   margin-top: 48px;
+   overflow-y: hidden;
+   position: relative;
+   width: 2580%;
+   margin-left: -1130%;
+   top: 20px;
+   opacity: 0;
+   animation-duration: 0.5s;
+   background-color: rgb(61, 61, 61);
+   pointer-events: none;
+   animation-fill-mode: both;
+   animation-timing-function: ease-in;
+}
+
+#business_link:hover #business {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+#video {
+   margin-top: 48px;
+   overflow-y: hidden;
+   position: relative;
+   width: 4200%;
+   margin-left: -670px;
+   top: 20px;
+   opacity: 0;
+   animation-fill-mode: forwards;
+   animation-duration: 0.9s;
+   background-color: rgb(61, 61, 61);
+   ;
+   pointer-events: none;
+}
+
+#video_link:hover #video {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+#world {
+   margin-top: 48px;
+   overflow-y: hidden;
+   position: relative;
+   width: 4100%;
+   margin-left: -550px;
+   top: 20px;
+   opacity: 0;
+   animation-duration: 0.5s;
+   background-color: rgb(61, 61, 61);
+   pointer-events: none;
+   position: relative;
+   animation-fill-mode: both;
+   animation-timing-function: ease-in;
+}
+
+#world_link:hover #world {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+#sport {
+   margin-top: 48px;
+   overflow-y: hidden;
+   position: relative;
+   width: 4400%;
+   margin-left: -720px;
+   top: 20px;
+   opacity: 0;
+   animation-duration: 0.5s;
+   background-color: rgb(61, 61, 61);
+   pointer-events: none;
+   animation-fill-mode: both;
+   animation-timing-function: ease-in;
+}
+
+#sport_link:hover #sport {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+#Art:hover #arts_culture {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+#arts_culture {
+   margin-top: 48px;
+   overflow-y: hidden;
+   background-color: rgb(61, 61, 61);
+   position: relative;
+   width: 1600%;
+   margin-left: -750px;
+   top: 20px;
+   opacity: 0;
+   animation-duration: 0.5s;
+   pointer-events: none;
+   animation-fill-mode: both;
+   animation-timing-function: ease-in;
+}
+
+#health {
+   margin-top: 48px;
+   overflow-y: hidden;
+   position: relative;
+   width: 4070%;
+   margin-left: -870px;
+   top: 20px;
+   opacity: 0;
+   animation-duration: 0.5s;
+   background-color: rgb(61, 61, 61);
+   pointer-events: none;
+   animation-fill-mode: both;
+   animation-timing-function: ease-in;
+}
+
+#health_link:hover #health {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+#opinion {
+   margin-top: 48px;
+   overflow-y: hidden;
+   position: relative;
+   width: 3100%;
+   margin-left: -965px;
+   top: 20px;
+   opacity: 0;
+   animation-duration: 0.5s;
+   background-color: rgb(61, 61, 61);
+   pointer-events: none;
+   animation-fill-mode: both;
+   animation-timing-function: ease-in;
+}
+
+#link_opinion:hover #opinion {
+   opacity: 1;
+   animation-name: content_panel;
+   pointer-events: visibleStroke;
+}
+
+.content_cell {
+   position: absolute;
+   top: 25px;
+   bottom: 100px;
+   left: 240px;
+   right: 230px;
+   display: grid;
+   grid-template-columns: 300px 1fr;
+   background-color: rgb(61, 61, 61);
+
+}
+.content_cell div h1 {
+   color: red;
+   font-size: 35px;
+   margin-top: 5px;
+
+}
+.content_cell #cell_container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}

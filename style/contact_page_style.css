@@ -1,0 +1,119 @@
+*{
+   margin: 0;
+}
+
+body {
+   margin: 0;
+   padding-top: 15rem;
+   padding-right: 15%;
+   padding-left: 15%;
+   height: 1200px;
+}
+
+h1 {
+   text-align: left;
+   margin-bottom: 5px;
+   display: block;
+}
+
+.container {
+   max-width: 920px;
+   margin: auto;
+   margin-top: 15px;
+   display: grid;
+   grid-template-columns: 1fr 35%;
+   border: none;
+   column-gap: 25px;
+}
+
+.container p {
+   font-size: 13px;
+   color: rgb(77, 76, 76);
+}
+
+#form_section div {
+   display: flex;
+   height: 40px;
+   border-radius: 2px;
+   margin-top: 5px;
+   margin-bottom: 25px;
+}
+
+#form_section input {
+   height: 100%;
+   width: 100%;
+   border: 1px solid rgb(214, 214, 220);
+   font-size: 15px;
+}
+
+#form_section label {
+   font-weight: bold;
+   color: black;
+}
+
+#form_section #submit_Button {
+   width: 150px;
+   height: 40px;
+   color: white;
+   font-size: 15px;
+   background-color: rgb(11, 11, 58);
+}
+
+#form_section #submit_Button:hover {
+   background-color: rgb(11, 50, 80);
+}
+
+#form_section #submit_Button:active {
+   opacity: 0.7;
+}
+
+#socialNetwork {
+   border-top-width: 2px;
+   border-top-style: solid;
+   border-top-color: lightgrey;
+   margin-top: 40px;
+   height: 300px;
+   position: relative;
+
+}
+
+#socialNetwork #cell {
+   height: 80%;
+   margin-top: 2%;
+   background-color: lightblue;
+   grid-template-columns: 1fr;
+   background-color: rgb(61, 61, 61);
+
+}
+
+#socialNetwork #cell #innerCell {
+
+   height: 50px;
+   justify-items: center;
+   align-content: center;
+   display: flex;
+}
+
+#innerCell a {
+   display: flex;
+   border: 1px solid darkgrey;
+   width: 45px;
+   margin-right: 5px;
+   margin-left: 10px;
+   border-radius: 50%;
+}
+
+#signInput {
+   height: 50%;
+}
+
+#innerCell a {
+   align-items: center;
+   justify-content: center;
+}
+
+#innerCell a img {
+   height: 50%;
+   width: 50%;
+   border-radius: 25%;
+}
