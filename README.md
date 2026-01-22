@@ -5,7 +5,7 @@ A front-end web Development Using HTML, CSS, JavaScript
  *  Use of Flex boxe boxes
  *  Grid system layout
  *  Picture and Video uploads
- *  
+   
   <img width="1313" height="638" alt="2nd" src="https://github.com/user-attachments/assets/fdf95d5e-138e-47c0-b3a8-651a167bac25" />
 <img width="1334" height="639" alt="1st" src="https://github.com/user-attachments/assets/6c923e88-a0dd-4e21-9fda-a9701fa11da7" />
 <img width="1366" height="768" alt="3rd" src="https://github.com/user-attachments/assets/08deb450-0189-479d-891b-fb172d8dd429" />
